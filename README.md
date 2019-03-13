@@ -1,21 +1,17 @@
 # giftastic
+Reactionary is a page that allows users to be shown a selection gifs of the selected category. 
 
-DONE: Create array of search terms.
-DONE: Create AJAX get request flow and console log results (using one of the array search terms)
-DONE: Create front end UI
-DONE: Hookup search term into AJAX request and console log the result
-DONE: Hook up gifs to front end ui (no pause/animate)
-TODO: Hook up pause/animate behavior
-TODO: Finalize gif appearance (rating)
-Stretch Goals:
-TODO: Responsive UI
-TODO: Additional metadata
-TODO: Download button
-TODO: Ability to favorite gifs (Doesn't persist through page refresh)
-TODO: Cookies for saving favorites
+## Description of features
+New cagegories can be added by searching.
+Images can be favorited and unfavorited.
+Favorited images appear on the favorite page.
+The list of favorited images persists between sessions (using the localStorage).
+
+## Purpose
+This was an assignment for coding bootcamp focusing on using third party APIs, manipulating the dom, and using the localStorage.
 
 
-icons
-<i class="fas fa-heart"></i> solid heart  (for favoriting)
-<i class="far fa-heart"></i> outlined heart (for favoriting)
-<i class="fas fa-download"></i> download
+## Feedback
+This project felt a little easier than the ones before. Although this may be due to my continued improvements in breaking down the work into more manageable pieces and my increased comfort with bootstrap.
+
+I welcome any feedback on the choices I made (especially on the html and css side).
